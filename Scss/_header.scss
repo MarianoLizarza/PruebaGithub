@@ -1,0 +1,23 @@
+header {
+    menu {
+        font-size: 18px;
+        display: flex;
+        position: sticky;
+        padding: 0%;
+        top: 0%;
+        flex-direction: row;
+        justify-content: space-around;
+        li {
+            font-weight: bold;
+            a {
+                color: gray;
+                form {
+                    font-size: 18px;
+                    button {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

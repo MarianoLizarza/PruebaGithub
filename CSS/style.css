@@ -1,0 +1,89 @@
+/*ENCABEZADO*/
+body {
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+  background-color: #60bd60;
+}
+
+header menu {
+  font-size: 18px;
+  display: flex;
+  position: sticky;
+  padding: 0%;
+  top: 0%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header menu li {
+  font-weight: bold;
+}
+header menu li a {
+  color: gray;
+}
+header menu li a form {
+  font-size: 18px;
+}
+header menu li a form button {
+  font-weight: bold;
+}
+
+/*Footer*/
+footer {
+  min-height: 100px;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+footer p #iconos {
+  font-size: 26px;
+  padding: 0 8px;
+}
+footer p #iconos i {
+  color: white;
+}
+
+.img-fluid:hover {
+  transform: scale(0.9);
+}
+
+.card:hover {
+  transform: scale(0.9);
+}
+
+/*slider imagenes*/
+.carousel-inner {
+  max-height: 39rem;
+}
+
+/*media queries pantalla sm*/
+@media (max-width: 768px) {
+  #intro,
+#tienda {
+    width: 90% !important;
+  }
+}
+.servicio-fila {
+  width: 100% !important;
+  text-align: center;
+}
+
+/*media queries pantalla extra-sm*/
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
+/*Contactos formulario*/
+#contenedor-formulario {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: cyan;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--maximun-scale=5.0 es para que pueda hacer zoom en el contenido-->
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximun-scale=5.0">
+
+    <!--Metaetiquetas-->
+    <!--70 a 320 caracteres-->
+    <meta name="description" content="Vegana Popular, comida 100% naturales, sin harina, sin conservantes, no incluye proteína animal o productos animales como los huevos, leche o miel.">
+
+    <!--En keywords debe tener palabras que esten en el contenido del body para que tenga más pesos en la busqueda-->
+    <meta name="keywords" content="Comida vegana, brownie de chocolate, brownie de coco, brownie de limón, hamburguesas de lentejas, porotos, garbanzos, arvejas">
+
+    <!--Protocolo open graph, para que se convierta en un objeto enriquecido en un gráfico social-->
+    <meta property="og:title" content="Comida vegana 100% natural">
+    <meta property="og:image" content="https://vegana.com/imagenes/1.png">
+    <meta property="og:author" content="Mariano Lizarza">
+    <meta property="og:description" content="Comida vegana, brownie de chocolate, brownie de coco, brownie de limón, hamburguesas de lentejas, porotos, garbanzos, arvejas">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--El tittle debe tener Entre 35 y 65 caracteres-->
+    <title>Desafio 13 SEO Mariano Lizarza </title>
+</head>
+
+<body>
+    <!--ENCABEZADO-->
+    <header class="container-fluid bg-success d-flex justify-content-center">
+        <h1 class="text-light mb-0 p-2 fs-6">Vegana Popular</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="danger fs-5 fw-bold"> Vegana Popular</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#productos" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Brownie de chocolate</a></li>
+                            <li><a class="dropdown-item" href="#">Hamburguesa</a></li>
+                            <li><a class="dropdown-item" href="#">Mantecol</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tienda">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contenedor formulario">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Correo Electrónico" aria-label="email">
+                    <button class="btn btn-success btn-primary-outline-success" type="button">Suscríbete</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--SLIDER DE IMAGENES-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./img/3.1.jpeg" class="d-block w-100" alt="Brownie" loading="lazy">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/1.jpeg" class="d-block w-100" alt="Brownie" loading="lazy">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/2.jpeg" class="d-block w-100" alt="Brownie" loading="lazy">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/3.jpg" class="d-block w-100" alt="Hamburguesa" loading="lazy">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Productos-->
+    <section class="container-fluid">
+        <div class="w-50 m-auto text-center" id="Productos">
+            <h1 class="p-3 fs-2 text-primary">Productos</h1>
+        </div>
+        <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./img/4.jpg" alt="Brownie limon" width="300" height="200" loading="lazy">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Brownie de limon</h3>
+                    <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus quisquam quidem tempore alias cum, sed officia animi dolores nihil facere amet sint ratione pariatur nesciunt possimus esse rem odio harum!</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                <img src="./img/9.jpg" alt="Mantecol" width="300" height="200" loading="lazy">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Mantecol</h3>
+                    <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus quisquam quidem tempore alias cum, sed officia animi dolores nihil facere amet sint ratione pariatur nesciunt possimus esse rem odio harum!</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                <img src="./img/7.jpeg" alt="Hamburguesa" width="300" height="200" loading="lazy">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Hamburguesas de Lentejas</h3>
+                    <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus quisquam quidem tempore alias cum, sed officia animi dolores nihil facere amet sint ratione pariatur nesciunt possimus esse rem odio harum!</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                <img src="./img/6.jpeg" alt="Hamburguesa" width="300" height="200" loading="lazy">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Hamburguesas de Garbanzos</h3>
+                    <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus quisquam quidem tempore alias cum, sed officia animi dolores nihil facere amet sint ratione pariatur nesciunt possimus esse rem odio harum!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Tienda-->
+    <section>
+        <div class="w-100 m-auto text-center" id="tienda">
+            <h1 class="p-3 fs-2 text-primary ">Tienda</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sem-12 col-12">
+                        <div class="card">
+                            <img src="./img/1.jpeg " class="card-img-top" alt="Brownie de chocolate" loading="lazy">
+                            <div class="card-body">
+                                <h5 class="card-title ">Brownie de chocolate</h5>
+                                <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque deleniti vel nisi recusandae aut dolorem omnis, aliquid quae rem perferendis voluptas quia tenetur molestiae voluptate dolorum distinctio pariatur quaerat
+                                    molestias? </p>
+                                <a href="# " class="btn btn-primary ">$200</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sem-6 col-12 ">
+                        <div class="card ">
+                            <img src="./img/8.jpeg " class="card-img-top " alt="Hamburguesa Vegana" loading="lazy">
+                            <div class="card-body ">
+                                <h5 class="card-title ">Hamburguesa Vegana de Porotos</h5>
+                                <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus assumenda debitis ullam, distinctio iusto recusandae unde accusamus et in suscipit sapiente exercitationem.
+                                </p>
+                                <a href="# " class="btn btn-primary ">$200</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sem-6 col-12 ">
+                        <div class="card ">
+                            <img src="./img/2.jpeg " class="card-img-top " alt="Brownie de Coco" loading="lazy">
+                            <div class="card-body ">
+                                <h5 class="card-title ">Brownie de Coco</h5>
+                                <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, at. Cupiditate impedit dignissimos repellat dolorem doloremque libero, ullam, laudantium magni accusantium nesciunt cum tempora? Exercitationem quibusdam odit
+                                    molestias error eaque!</p>
+                                <a href="# " class="btn btn-primary ">$200</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Nosotros-->
+    <section class="w-100 mx-auto text-center pt-5 " id="nosotros">
+        <h1 class="p-3 fs-2  text-primary ">Nosotros</h1>
+        <p class="p-3 fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fuga quisquam rerum quas autem consequuntur aut vero, quidem sit sequi commodi neque accusantium pariatur harum natus beatae, reiciendis magni mollitia.</p>
+        <div class="mt-5 text-center ">
+            <img class="img-fluid" src="./img/FotoVale.jpg " alt="foto vale" loading="lazy">
+        </div>
+    </section>
+
+    <!--Formularios-->
+    <section>
+        <div class="container " id="contenedor formulario">
+            <div id="titulo-formulario " class="text-center mb-4 ">
+                <h1 class="p-3 fs-2 text-primary ">Contacto</h1>
+                <p class="fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatum exercitationem laborum aut vel, voluptatibus dignissimos fuga rerum nobis tenetur labore iusto maxime? Totam, voluptatibus repellendus amet distinctio provident
+                    excepturi.
+                </p>
+                <div><img src="./img/LogoVP.jpeg " alt="Logo " class="img-fluid1" loading="lazy"></div>
+            </div>
+            <form action=" ">
+                <form>
+                    <div class="mb-3 ">
+                        <input type="email " class="form-control " id="email " placeholder="Email " required>
+                    </div>
+                    <div class="mb-3 ">
+                        <input type="text " class="form-control " id="nombre " placeholder="Nombre y Apellido " required>
+                    </div>
+                    <div class="mb-3 ">
+                        <input type="Tlf " class="form-control " id="Tlf " placeholder="Teléfono de contacto " required>
+                    </div>
+                    <div class="mb-3 ">
+                        <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 " placeholder="Escribe tu mensaje "></textarea>
+                    </div>
+                    <div class="mb-3 ">
+                        <button type="button " class="btn btn-primary w-100 fs-5 ">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap bg-success ">
+        <p class="fs-5 px-3 pt-3 ">Vegana Popular &copy; Todos los derechos reservados 2021</p>
+        <div id="iconos ">
+            <a href="https://www.facebook.com/veganapopular/" tittle="Acceso a facebook"> <i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com/veganapopular?igshid=1nmw8atrskqwk" tittle="Acceso a instagram"> <i class="bi bi-instagram "></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4 " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
